@@ -1,0 +1,751 @@
+{
+  "date": "2026-10-30",
+  "source_repository": "https://github.com/OpenDCAI/GameFactory-3A",
+  "source_head": "db8a6f757c28447285e86f749b54ee98bd512478",
+  "source_state": "Local working tree; game directories were untracked/ignored. This is a new snapshot, not a filtered commit history.",
+  "files": [
+    {
+      "source": "games/modern-art/.gitignore",
+      "destination": ".gitignore",
+      "bytes": 66,
+      "source_sha256": "9a3f7079a75c550db1a728ddf4d5e3b68b12738ce79512994120ee3bbe874f06",
+      "destination_sha256": "85748326649f429a36780a818a226012a1072d3059b1c3026ceb73209ea46a99",
+      "adapted": true
+    },
+    {
+      "source": "games/modern-art/.npmrc",
+      "destination": ".npmrc",
+      "bytes": 19,
+      "source_sha256": "0ed44e7d606cd7a9eba915a10f13a13a09ea85e4b2bb4415bb0c481dbdcded51",
+      "destination_sha256": "0ed44e7d606cd7a9eba915a10f13a13a09ea85e4b2bb4415bb0c481dbdcded51",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/context_used.json",
+      "destination": "context_used.json",
+      "bytes": 496,
+      "source_sha256": "b757b0d86a6d989735d3ab04ac3e168b2df93646c0abd1a9ce2626ef30d9f96e",
+      "destination_sha256": "b757b0d86a6d989735d3ab04ac3e168b2df93646c0abd1a9ce2626ef30d9f96e",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/DESIGN.md",
+      "destination": "DESIGN.md",
+      "bytes": 2711,
+      "source_sha256": "bbe32d3ebd8a3a61ce577bb02dbd2eb27873b0a727d1ac3111686883c2460bd1",
+      "destination_sha256": "bbe32d3ebd8a3a61ce577bb02dbd2eb27873b0a727d1ac3111686883c2460bd1",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/index.html",
+      "destination": "index.html",
+      "bytes": 518,
+      "source_sha256": "fce4a9ab07209e0dcdeeabb52267487d4d51d0c49aa34b6f1db5b5c67095b87a",
+      "destination_sha256": "fce4a9ab07209e0dcdeeabb52267487d4d51d0c49aa34b6f1db5b5c67095b87a",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/layout.json",
+      "destination": "layout.json",
+      "bytes": 542,
+      "source_sha256": "0ff88edb6bf2ae8af7b2960e0f1567c15c9b543cd50a8c0a9e1d693c74bb995e",
+      "destination_sha256": "0ff88edb6bf2ae8af7b2960e0f1567c15c9b543cd50a8c0a9e1d693c74bb995e",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/LICENSE.GameFactory",
+      "destination": "LICENSE.GameFactory",
+      "bytes": 11539,
+      "source_sha256": "1f91970463adb0022785ef004328d8984ecd89d4060faebdd03ea83e04ecf478",
+      "destination_sha256": "1f91970463adb0022785ef004328d8984ecd89d4060faebdd03ea83e04ecf478",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/mechanic_contract.json",
+      "destination": "mechanic_contract.json",
+      "bytes": 555,
+      "source_sha256": "f7db5f3b42d059fbab4f8fb8a84bd49dbea880d568be5a67d2b846f5cdb673f4",
+      "destination_sha256": "f7db5f3b42d059fbab4f8fb8a84bd49dbea880d568be5a67d2b846f5cdb673f4",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/package-lock.json",
+      "destination": "package-lock.json",
+      "bytes": 47511,
+      "source_sha256": "c8fa4e666e596d3dd6026f4ecdc18fdd15ec0753bbca46384a6b228d1f4a546d",
+      "destination_sha256": "c8fa4e666e596d3dd6026f4ecdc18fdd15ec0753bbca46384a6b228d1f4a546d",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/package.json",
+      "destination": "package.json",
+      "bytes": 833,
+      "source_sha256": "9d5114d7dec05fe2559b2b1fcb559db8320d7d85e85034228444f660c203bdf9",
+      "destination_sha256": "9e89c24213b1aac8744cedb8c032e050141ba486cc4361bbceb50a1a08c8436c",
+      "adapted": true
+    },
+    {
+      "source": "games/modern-art/README.md",
+      "destination": "README.md",
+      "bytes": 8826,
+      "source_sha256": "55339e8a41837d69ce3c86c042f5d6e62d6ef0cbb6362acf522068b2a2dfde61",
+      "destination_sha256": "97d24a01041e377b82b3e5a59c1422cdeb74a6ee7751c9ef661679b95705aed1",
+      "adapted": true
+    },
+    {
+      "source": "games/modern-art/render.yaml",
+      "destination": "render.yaml",
+      "bytes": 469,
+      "source_sha256": "06307830f44393e191a55823ad5470561b551899fe39d475e6f451df4e255ec1",
+      "destination_sha256": "5bfa5e57956a7607e41eaa804df0dae2f73bae3e86ee9dfa3e4032fe35765ad5",
+      "adapted": true
+    },
+    {
+      "source": "games/modern-art/Start-Local.ps1",
+      "destination": "Start-Local.ps1",
+      "bytes": 530,
+      "source_sha256": "0535ed755f2ffcc05a1e72ec03522d963ac77e1aeda620bae25185be7265dff7",
+      "destination_sha256": "0535ed755f2ffcc05a1e72ec03522d963ac77e1aeda620bae25185be7265dff7",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/TABLE_REDESIGN.md",
+      "destination": "TABLE_REDESIGN.md",
+      "bytes": 2409,
+      "source_sha256": "a0b6852841e138db4c173ac4893c3bf83d3cf31b6a9ebe1519fc68b555e3f6d5",
+      "destination_sha256": "a0b6852841e138db4c173ac4893c3bf83d3cf31b6a9ebe1519fc68b555e3f6d5",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/THIRD_PARTY_NOTICES.md",
+      "destination": "THIRD_PARTY_NOTICES.md",
+      "bytes": 894,
+      "source_sha256": "46e5303abf6cd030c685e0475c02274274d7f33ca9368b0c7a2c952e38b73c80",
+      "destination_sha256": "46e5303abf6cd030c685e0475c02274274d7f33ca9368b0c7a2c952e38b73c80",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/VALIDATION.md",
+      "destination": "VALIDATION.md",
+      "bytes": 4526,
+      "source_sha256": "ff635f8d6a3163fc2fa170297e1dc0999a46b05f870c6b7f62049f9855461bab",
+      "destination_sha256": "ff635f8d6a3163fc2fa170297e1dc0999a46b05f870c6b7f62049f9855461bab",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/vite.config.js",
+      "destination": "vite.config.js",
+      "bytes": 1205,
+      "source_sha256": "ae2aa02290fa9c4c17d60e88c3200248454740e7c778e98990c46c3831dc94ac",
+      "destination_sha256": "ae2aa02290fa9c4c17d60e88c3200248454740e7c778e98990c46c3831dc94ac",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/licenses/THREE.txt",
+      "destination": "licenses/THREE.txt",
+      "bytes": 1081,
+      "source_sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "destination_sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/licenses/ws.txt",
+      "destination": "licenses/ws.txt",
+      "bytes": 1183,
+      "source_sha256": "2b29dcfe0d6471f7e8c92c5fb38c9f93edee10330937055440192f1832b1ecef",
+      "destination_sha256": "2b29dcfe0d6471f7e8c92c5fb38c9f93edee10330937055440192f1832b1ecef",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/package-lock.json",
+      "destination": "packages/a3game-playable/package-lock.json",
+      "bytes": 48130,
+      "source_sha256": "195e8ab6aa2285dc70eb1ec981cf6eb3f141d3452bb473c92d31549e097023e2",
+      "destination_sha256": "195e8ab6aa2285dc70eb1ec981cf6eb3f141d3452bb473c92d31549e097023e2",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/package.json",
+      "destination": "packages/a3game-playable/package.json",
+      "bytes": 961,
+      "source_sha256": "5438bcb891039619719908e31a178ab94abe8259e6f5e5ddd69cc1d7e274768f",
+      "destination_sha256": "5438bcb891039619719908e31a178ab94abe8259e6f5e5ddd69cc1d7e274768f",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/README.md",
+      "destination": "packages/a3game-playable/README.md",
+      "bytes": 16209,
+      "source_sha256": "ba9d905fedce965bbcae753f1ea6595f5c660fd403fb870734a220ad5f59e8f0",
+      "destination_sha256": "ba9d905fedce965bbcae753f1ea6595f5c660fd403fb870734a220ad5f59e8f0",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/vitest.config.js",
+      "destination": "packages/a3game-playable/vitest.config.js",
+      "bytes": 628,
+      "source_sha256": "60252f4555c3fce99e49872526ddffe27f177cd5b63afbad09e8ca41eeb55ea5",
+      "destination_sha256": "60252f4555c3fce99e49872526ddffe27f177cd5b63afbad09e8ca41eeb55ea5",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/index.js",
+      "destination": "packages/a3game-playable/src/index.js",
+      "bytes": 6536,
+      "source_sha256": "864e48f6d54b3d36dec4c329a9dea0c2ed317c50e8b6c3182abdb28b51db5890",
+      "destination_sha256": "864e48f6d54b3d36dec4c329a9dea0c2ed317c50e8b6c3182abdb28b51db5890",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/components/identity-component.js",
+      "destination": "packages/a3game-playable/src/components/identity-component.js",
+      "bytes": 2576,
+      "source_sha256": "2ce072e1f00c9f4147e77433a18fe8a88ef5c82fd8b24bd8ae38a1fac9f39cc4",
+      "destination_sha256": "2ce072e1f00c9f4147e77433a18fe8a88ef5c82fd8b24bd8ae38a1fac9f39cc4",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/components/index.js",
+      "destination": "packages/a3game-playable/src/components/index.js",
+      "bytes": 241,
+      "source_sha256": "c8d207906f5056b019d25b70c6aac28e05c5641ebf6d796763a6c506998d9b6a",
+      "destination_sha256": "c8d207906f5056b019d25b70c6aac28e05c5641ebf6d796763a6c506998d9b6a",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/components/runtime-entity-component.js",
+      "destination": "packages/a3game-playable/src/components/runtime-entity-component.js",
+      "bytes": 4551,
+      "source_sha256": "dbe7ffe9bb30a139f244e33415c2fa90c057079ab569b91cd527d61ee70f811c",
+      "destination_sha256": "dbe7ffe9bb30a139f244e33415c2fa90c057079ab569b91cd527d61ee70f811c",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/data-types/runtime-types.js",
+      "destination": "packages/a3game-playable/src/data-types/runtime-types.js",
+      "bytes": 6366,
+      "source_sha256": "9e5b7224c8131616f7e4a85a787d6ce54ba73004e07e6ef063af1c0b4f0c6346",
+      "destination_sha256": "9e5b7224c8131616f7e4a85a787d6ce54ba73004e07e6ef063af1c0b4f0c6346",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/engine/action-camera.js",
+      "destination": "packages/a3game-playable/src/engine/action-camera.js",
+      "bytes": 3423,
+      "source_sha256": "e1bd35b95d033947df510a14a1653db536eb2ab5a1904e6a2bb1438a4d3ec5ee",
+      "destination_sha256": "e1bd35b95d033947df510a14a1653db536eb2ab5a1904e6a2bb1438a4d3ec5ee",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/engine/animation-director.js",
+      "destination": "packages/a3game-playable/src/engine/animation-director.js",
+      "bytes": 7884,
+      "source_sha256": "a7153e286286a126c9160b3ae37378aa3b3d55f962cc9a82f0e73863738ea637",
+      "destination_sha256": "a7153e286286a126c9160b3ae37378aa3b3d55f962cc9a82f0e73863738ea637",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/engine/asset-library.js",
+      "destination": "packages/a3game-playable/src/engine/asset-library.js",
+      "bytes": 34802,
+      "source_sha256": "cf7eb8746d9b46905932b67e19ac3c1adae69b7f26782593872deb715bca2fa7",
+      "destination_sha256": "cf7eb8746d9b46905932b67e19ac3c1adae69b7f26782593872deb715bca2fa7",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/engine/cinematic-player.js",
+      "destination": "packages/a3game-playable/src/engine/cinematic-player.js",
+      "bytes": 8404,
+      "source_sha256": "c1893abcfad723e1895eb12e6b0c80256a1715873efd557d5b26eb0f9004de7b",
+      "destination_sha256": "c1893abcfad723e1895eb12e6b0c80256a1715873efd557d5b26eb0f9004de7b",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/engine/collision-probe.js",
+      "destination": "packages/a3game-playable/src/engine/collision-probe.js",
+      "bytes": 25246,
+      "source_sha256": "ccefc70cecaaa1e1ebf8ae085a348e280feb763de1b74bbb89dd6482e48202f5",
+      "destination_sha256": "ccefc70cecaaa1e1ebf8ae085a348e280feb763de1b74bbb89dd6482e48202f5",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/engine/game-feel.js",
+      "destination": "packages/a3game-playable/src/engine/game-feel.js",
+      "bytes": 7838,
+      "source_sha256": "c6ef7428cb603d3f2747a8ecdec7f65b80177b1f71ecd30a8687ce80ce1dbe03",
+      "destination_sha256": "c6ef7428cb603d3f2747a8ecdec7f65b80177b1f71ecd30a8687ce80ce1dbe03",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/engine/hud-layer.js",
+      "destination": "packages/a3game-playable/src/engine/hud-layer.js",
+      "bytes": 12147,
+      "source_sha256": "8b1fc96563518fb0f60de00dad6565407c39edb3d9095c658b9cefc25c0b76bd",
+      "destination_sha256": "8b1fc96563518fb0f60de00dad6565407c39edb3d9095c658b9cefc25c0b76bd",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/engine/index.js",
+      "destination": "packages/a3game-playable/src/engine/index.js",
+      "bytes": 2581,
+      "source_sha256": "d268e5e690a55f54fb5402f394cbee2f85b383297a55bdbc8c6713766985df5d",
+      "destination_sha256": "d268e5e690a55f54fb5402f394cbee2f85b383297a55bdbc8c6713766985df5d",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/engine/input-router.js",
+      "destination": "packages/a3game-playable/src/engine/input-router.js",
+      "bytes": 10102,
+      "source_sha256": "61fae177ba4fe076f2ede6aa27c21f7a155cb875f6eafd337ebd141ee25e4cfd",
+      "destination_sha256": "61fae177ba4fe076f2ede6aa27c21f7a155cb875f6eafd337ebd141ee25e4cfd",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/engine/lightning-effect.js",
+      "destination": "packages/a3game-playable/src/engine/lightning-effect.js",
+      "bytes": 2984,
+      "source_sha256": "db69dbc9f4125b78b90c1bc319d0f4b79e5f51601e8c1841386cb830bdbfe63e",
+      "destination_sha256": "db69dbc9f4125b78b90c1bc319d0f4b79e5f51601e8c1841386cb830bdbfe63e",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/engine/motion-kit.js",
+      "destination": "packages/a3game-playable/src/engine/motion-kit.js",
+      "bytes": 54024,
+      "source_sha256": "9c183904dcb349c97433cbe26f3d02c1a56f317564fbd36b72a178a7c24a2347",
+      "destination_sha256": "9c183904dcb349c97433cbe26f3d02c1a56f317564fbd36b72a178a7c24a2347",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/engine/runtime-channel.js",
+      "destination": "packages/a3game-playable/src/engine/runtime-channel.js",
+      "bytes": 6197,
+      "source_sha256": "6f4e5dc6f51e5009cf80b2e7b526571f0daf91e146319adb2153377e0055ba4a",
+      "destination_sha256": "6f4e5dc6f51e5009cf80b2e7b526571f0daf91e146319adb2153377e0055ba4a",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/engine/runtime-host.js",
+      "destination": "packages/a3game-playable/src/engine/runtime-host.js",
+      "bytes": 43329,
+      "source_sha256": "eee4316471355a8cb05d8c9d4be44ea4b04dcf9089a8aa938e03cd15ecaee7dd",
+      "destination_sha256": "eee4316471355a8cb05d8c9d4be44ea4b04dcf9089a8aa938e03cd15ecaee7dd",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/engine/scene-kit.js",
+      "destination": "packages/a3game-playable/src/engine/scene-kit.js",
+      "bytes": 9025,
+      "source_sha256": "6ad5035bbfa6750aa57c188179afb74242e4c3bc1f26b0839766f0d753e24a8e",
+      "destination_sha256": "6ad5035bbfa6750aa57c188179afb74242e4c3bc1f26b0839766f0d753e24a8e",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/engine/scene-loader.js",
+      "destination": "packages/a3game-playable/src/engine/scene-loader.js",
+      "bytes": 19294,
+      "source_sha256": "d23ad07aef88f4220ecf450ea3a32fdaddca342d48da11363f2d3a1c319f745a",
+      "destination_sha256": "d23ad07aef88f4220ecf450ea3a32fdaddca342d48da11363f2d3a1c319f745a",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/engine/surface-flow.js",
+      "destination": "packages/a3game-playable/src/engine/surface-flow.js",
+      "bytes": 21828,
+      "source_sha256": "5d0b7e4a00dfda89c4269e585eec25c1fccd9b3c975af97e05c86b4456912173",
+      "destination_sha256": "5d0b7e4a00dfda89c4269e585eec25c1fccd9b3c975af97e05c86b4456912173",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/engine/vfx-kit.js",
+      "destination": "packages/a3game-playable/src/engine/vfx-kit.js",
+      "bytes": 66981,
+      "source_sha256": "19c0f672217c0b276120e39f8f4feb6adae245d3d299b51e0149aa6d56278f8e",
+      "destination_sha256": "19c0f672217c0b276120e39f8f4feb6adae245d3d299b51e0149aa6d56278f8e",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/engine/visual-kit.js",
+      "destination": "packages/a3game-playable/src/engine/visual-kit.js",
+      "bytes": 98278,
+      "source_sha256": "930a4bb2db5326a9e87eb72c38ae1cf44c27ac4f67015fdb9c9ab5f610446132",
+      "destination_sha256": "930a4bb2db5326a9e87eb72c38ae1cf44c27ac4f67015fdb9c9ab5f610446132",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/engine/water-body.js",
+      "destination": "packages/a3game-playable/src/engine/water-body.js",
+      "bytes": 8235,
+      "source_sha256": "935dda6950539406e812e0b0b70342fa4764d7ba0827b09f3ca79930cbbcec3c",
+      "destination_sha256": "935dda6950539406e812e0b0b70342fa4764d7ba0827b09f3ca79930cbbcec3c",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/engine/wind-field.js",
+      "destination": "packages/a3game-playable/src/engine/wind-field.js",
+      "bytes": 5545,
+      "source_sha256": "42898eb4260f9cdc898c9420b51cd2ad2fe8c9ca30fd1d8516a8afe23926b4e8",
+      "destination_sha256": "42898eb4260f9cdc898c9420b51cd2ad2fe8c9ca30fd1d8516a8afe23926b4e8",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/interfaces/contracts.js",
+      "destination": "packages/a3game-playable/src/interfaces/contracts.js",
+      "bytes": 5285,
+      "source_sha256": "8162eaca098f0dee94ea581d5598843e2021654cf4a376adb98a0cb3c8c20e2d",
+      "destination_sha256": "8162eaca098f0dee94ea581d5598843e2021654cf4a376adb98a0cb3c8c20e2d",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/subsystems/index.js",
+      "destination": "packages/a3game-playable/src/subsystems/index.js",
+      "bytes": 207,
+      "source_sha256": "b2ae206b38838eb7b046186e98392558c6b1d9c6ebd88d1c253943b19442ef0d",
+      "destination_sha256": "b2ae206b38838eb7b046186e98392558c6b1d9c6ebd88d1c253943b19442ef0d",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/subsystems/runtime-subsystem.js",
+      "destination": "packages/a3game-playable/src/subsystems/runtime-subsystem.js",
+      "bytes": 6131,
+      "source_sha256": "e5dc9955e299e44b32de384f0dc1442a778608384f85c35d1a644649c47b0415",
+      "destination_sha256": "e5dc9955e299e44b32de384f0dc1442a778608384f85c35d1a644649c47b0415",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/src/subsystems/world-session-subsystem.js",
+      "destination": "packages/a3game-playable/src/subsystems/world-session-subsystem.js",
+      "bytes": 11037,
+      "source_sha256": "2a923db0ace7880bec21d9ed01973ce6ee9cbf2652be030fed64bf3338deb44b",
+      "destination_sha256": "2a923db0ace7880bec21d9ed01973ce6ee9cbf2652be030fed64bf3338deb44b",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/tests/asset-base-url.spec.js",
+      "destination": "packages/a3game-playable/tests/asset-base-url.spec.js",
+      "bytes": 2321,
+      "source_sha256": "42467689ed692ef28184c5c9df052d3f398d273a47f803d979f58a1093747f52",
+      "destination_sha256": "42467689ed692ef28184c5c9df052d3f398d273a47f803d979f58a1093747f52",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/tests/cinematic-player.spec.js",
+      "destination": "packages/a3game-playable/tests/cinematic-player.spec.js",
+      "bytes": 3641,
+      "source_sha256": "a949bb9d83acd24badb3d36bebfa2cabd2a212f196e98615f9e4dda6d6ce5978",
+      "destination_sha256": "a949bb9d83acd24badb3d36bebfa2cabd2a212f196e98615f9e4dda6d6ce5978",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/tests/game-feel.spec.js",
+      "destination": "packages/a3game-playable/tests/game-feel.spec.js",
+      "bytes": 6927,
+      "source_sha256": "fab5176d96b731902533c9f37c82afba55053348d64daa9a2614b73fd6ab1dda",
+      "destination_sha256": "fab5176d96b731902533c9f37c82afba55053348d64daa9a2614b73fd6ab1dda",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/tests/hud-timing.spec.js",
+      "destination": "packages/a3game-playable/tests/hud-timing.spec.js",
+      "bytes": 3153,
+      "source_sha256": "cb521d962ba4eeb096920e7a981ce759e687d20facbea42a8bc5e97a046a0dab",
+      "destination_sha256": "cb521d962ba4eeb096920e7a981ce759e687d20facbea42a8bc5e97a046a0dab",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/tests/orientation.spec.js",
+      "destination": "packages/a3game-playable/tests/orientation.spec.js",
+      "bytes": 11180,
+      "source_sha256": "cb0b0419fab283ce03f42d4474d0c4f8b27bfec4987f5cf7147a9ee8a44c2643",
+      "destination_sha256": "cb0b0419fab283ce03f42d4474d0c4f8b27bfec4987f5cf7147a9ee8a44c2643",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/tests/realism-contracts.spec.js",
+      "destination": "packages/a3game-playable/tests/realism-contracts.spec.js",
+      "bytes": 8273,
+      "source_sha256": "b3740a7b1bd39d974e04df3ba7e595c1288f78881f4b42b44dc8ae322e81ba5a",
+      "destination_sha256": "b3740a7b1bd39d974e04df3ba7e595c1288f78881f4b42b44dc8ae322e81ba5a",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/tests/realism.html",
+      "destination": "packages/a3game-playable/tests/realism.html",
+      "bytes": 3695,
+      "source_sha256": "ccd55a523d62340ff56faf9fb518fb36a64815bb18f99675ce3c4996a17fe40d",
+      "destination_sha256": "ccd55a523d62340ff56faf9fb518fb36a64815bb18f99675ce3c4996a17fe40d",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/tests/runtime-realism.spec.js",
+      "destination": "packages/a3game-playable/tests/runtime-realism.spec.js",
+      "bytes": 6152,
+      "source_sha256": "cbd7e1f13275dad5090e2ef679498e97bd901a89522d2a7746a480b3ca65da59",
+      "destination_sha256": "cbd7e1f13275dad5090e2ef679498e97bd901a89522d2a7746a480b3ca65da59",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/tests/scene-kit.spec.js",
+      "destination": "packages/a3game-playable/tests/scene-kit.spec.js",
+      "bytes": 6484,
+      "source_sha256": "5023519806562ac25c9cca951de811bd3ac08ddd01cd27d390979caba46d92bc",
+      "destination_sha256": "5023519806562ac25c9cca951de811bd3ac08ddd01cd27d390979caba46d92bc",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/tests/surface-flow.spec.js",
+      "destination": "packages/a3game-playable/tests/surface-flow.spec.js",
+      "bytes": 16244,
+      "source_sha256": "3ef3df62fbe2ee0a07b64def78acb519b6cd349d97d70a8b3a3225e99f0f4f62",
+      "destination_sha256": "3ef3df62fbe2ee0a07b64def78acb519b6cd349d97d70a8b3a3225e99f0f4f62",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/tests/water-interaction.spec.js",
+      "destination": "packages/a3game-playable/tests/water-interaction.spec.js",
+      "bytes": 14404,
+      "source_sha256": "d847397edf8771831b933f7bd7dd1eb215415581cff07157e812d84b80cf643b",
+      "destination_sha256": "d847397edf8771831b933f7bd7dd1eb215415581cff07157e812d84b80cf643b",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/tests/wind-field.spec.js",
+      "destination": "packages/a3game-playable/tests/wind-field.spec.js",
+      "bytes": 3484,
+      "source_sha256": "823c45e8dcefe73e8912b8edff08e053b7d6a6668f2cf733666fbe472c70c499",
+      "destination_sha256": "823c45e8dcefe73e8912b8edff08e053b7d6a6668f2cf733666fbe472c70c499",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/tests/wind-fluid-demo.js",
+      "destination": "packages/a3game-playable/tests/wind-fluid-demo.js",
+      "bytes": 19061,
+      "source_sha256": "89fb1e4158359b2f9fcbb0d5d4a7b34f750eea1b39a50b93225d4331cac876bd",
+      "destination_sha256": "89fb1e4158359b2f9fcbb0d5d4a7b34f750eea1b39a50b93225d4331cac876bd",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/tests/wind-fluid.html",
+      "destination": "packages/a3game-playable/tests/wind-fluid.html",
+      "bytes": 2305,
+      "source_sha256": "74129f24c66a1b9a16a3e9b8f01c67ae51b0dcc78de39738fbbac07670ab29b7",
+      "destination_sha256": "74129f24c66a1b9a16a3e9b8f01c67ae51b0dcc78de39738fbbac07670ab29b7",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/a3game-playable/tests/world-realism.spec.js",
+      "destination": "packages/a3game-playable/tests/world-realism.spec.js",
+      "bytes": 3071,
+      "source_sha256": "9fe13c42c0e2cec9b5de5697f4717e00353698aa21bc66b2addf64b46505aa31",
+      "destination_sha256": "9fe13c42c0e2cec9b5de5697f4717e00353698aa21bc66b2addf64b46505aa31",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/modern-art/package.json",
+      "destination": "packages/modern-art/package.json",
+      "bytes": 77,
+      "source_sha256": "7acda593f40f6d69abc86cadca6a6d2ea409b1be5a342942bbc2a0a265d5cf7b",
+      "destination_sha256": "7acda593f40f6d69abc86cadca6a6d2ea409b1be5a342942bbc2a0a265d5cf7b",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/modern-art/src/art.js",
+      "destination": "packages/modern-art/src/art.js",
+      "bytes": 6239,
+      "source_sha256": "cd3a5bb667c6466fb4095975bf0aed042efdb8a1438709b4c6c7369fe74aa717",
+      "destination_sha256": "cd3a5bb667c6466fb4095975bf0aed042efdb8a1438709b4c6c7369fe74aa717",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/modern-art/src/bot-personality.js",
+      "destination": "packages/modern-art/src/bot-personality.js",
+      "bytes": 1189,
+      "source_sha256": "601fe639b195cba8d21b99ab17723b940b539bbde36f74358ad3f582adcec1fc",
+      "destination_sha256": "601fe639b195cba8d21b99ab17723b940b539bbde36f74358ad3f582adcec1fc",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/modern-art/src/bot.js",
+      "destination": "packages/modern-art/src/bot.js",
+      "bytes": 9403,
+      "source_sha256": "2dab3034839a54ecdf178e0b66a0a49bb3eb103c8b5c146d5dfbfc6666ed6a12",
+      "destination_sha256": "2dab3034839a54ecdf178e0b66a0a49bb3eb103c8b5c146d5dfbfc6666ed6a12",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/modern-art/src/catalog.js",
+      "destination": "packages/modern-art/src/catalog.js",
+      "bytes": 2661,
+      "source_sha256": "9c1bc999ad0d6da9876efa1be7cdace67398cc20de306fba57326fb92e701f0b",
+      "destination_sha256": "9c1bc999ad0d6da9876efa1be7cdace67398cc20de306fba57326fb92e701f0b",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/modern-art/src/gallery.js",
+      "destination": "packages/modern-art/src/gallery.js",
+      "bytes": 3949,
+      "source_sha256": "53e9bca0afd35c450042f57be8b4c1f59e8e90bb374ad5cdc7e1cbd35fd3af72",
+      "destination_sha256": "53e9bca0afd35c450042f57be8b4c1f59e8e90bb374ad5cdc7e1cbd35fd3af72",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/modern-art/src/rules.js",
+      "destination": "packages/modern-art/src/rules.js",
+      "bytes": 12897,
+      "source_sha256": "2d65219346936fb611f903f4045a0fe82e0a2b19f86ffcb7b9a17f1cd4157a19",
+      "destination_sha256": "2d65219346936fb611f903f4045a0fe82e0a2b19f86ffcb7b9a17f1cd4157a19",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/modern-art/src/settings.js",
+      "destination": "packages/modern-art/src/settings.js",
+      "bytes": 655,
+      "source_sha256": "43eff70e50379a3cd34b49ca3ac905de18027c02cccce8ab6f3f99b9e9e9e718",
+      "destination_sha256": "43eff70e50379a3cd34b49ca3ac905de18027c02cccce8ab6f3f99b9e9e9e718",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/modern-art/tests/bot.test.js",
+      "destination": "packages/modern-art/tests/bot.test.js",
+      "bytes": 8572,
+      "source_sha256": "a38022a97dc4bf7e42671bf1e0ce3c0c8df4f441e97066755dea504ef3f7e454",
+      "destination_sha256": "a38022a97dc4bf7e42671bf1e0ce3c0c8df4f441e97066755dea504ef3f7e454",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/modern-art/tests/money-events.test.js",
+      "destination": "packages/modern-art/tests/money-events.test.js",
+      "bytes": 1663,
+      "source_sha256": "51aceda7fc70ac587eff1ae1f1428f35c73e7eb65d981cc943e30cd1a1e043d0",
+      "destination_sha256": "51aceda7fc70ac587eff1ae1f1428f35c73e7eb65d981cc943e30cd1a1e043d0",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/modern-art/tests/network.test.js",
+      "destination": "packages/modern-art/tests/network.test.js",
+      "bytes": 8300,
+      "source_sha256": "b4e9d1bbd2e2b93e564d7899a7db6638736d093d24b84da19acabe95bc9aa813",
+      "destination_sha256": "b4e9d1bbd2e2b93e564d7899a7db6638736d093d24b84da19acabe95bc9aa813",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/modern-art/tests/pair-selection.test.js",
+      "destination": "packages/modern-art/tests/pair-selection.test.js",
+      "bytes": 1966,
+      "source_sha256": "a528c7fd4e344a616823c0531e3fdee178400daccd1b009536a43526b204e905",
+      "destination_sha256": "a528c7fd4e344a616823c0531e3fdee178400daccd1b009536a43526b204e905",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/packages/modern-art/tests/rules.test.js",
+      "destination": "packages/modern-art/tests/rules.test.js",
+      "bytes": 13822,
+      "source_sha256": "1efd8e77b3a892887505ca82575fb451e54c3038be12a3144549ab93bb9e6137",
+      "destination_sha256": "1efd8e77b3a892887505ca82575fb451e54c3038be12a3144549ab93bb9e6137",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/public/favicon.svg",
+      "destination": "public/favicon.svg",
+      "bytes": 313,
+      "source_sha256": "20e1544b6db36dbdc170fbd6495dc34fdfd9c666108f5e7600294469ba82473d",
+      "destination_sha256": "20e1544b6db36dbdc170fbd6495dc34fdfd9c666108f5e7600294469ba82473d",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/server/index.js",
+      "destination": "server/index.js",
+      "bytes": 12529,
+      "source_sha256": "0ccb5b7180be8b0716bde97e057389a9e86d768fa8685e1a5457e3f299b89149",
+      "destination_sha256": "0ccb5b7180be8b0716bde97e057389a9e86d768fa8685e1a5457e3f299b89149",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/src/lot-display.js",
+      "destination": "src/lot-display.js",
+      "bytes": 682,
+      "source_sha256": "abc7e5cad80df9cde5b3d70433fc17143ab02e98ec13b950cc003b007814aeeb",
+      "destination_sha256": "abc7e5cad80df9cde5b3d70433fc17143ab02e98ec13b950cc003b007814aeeb",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/src/main.js",
+      "destination": "src/main.js",
+      "bytes": 46514,
+      "source_sha256": "da06f0a0f8792ac373a1d7d03ae07fcebe3feb83d322bbb5dc264b494c19fdd1",
+      "destination_sha256": "da06f0a0f8792ac373a1d7d03ae07fcebe3feb83d322bbb5dc264b494c19fdd1",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/src/money-effects.css",
+      "destination": "src/money-effects.css",
+      "bytes": 2570,
+      "source_sha256": "817c8f31b26c8d32d2a51175d159b3e690416f54a151e8cd7c29bc2618327deb",
+      "destination_sha256": "817c8f31b26c8d32d2a51175d159b3e690416f54a151e8cd7c29bc2618327deb",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/src/money-effects.js",
+      "destination": "src/money-effects.js",
+      "bytes": 7238,
+      "source_sha256": "0259b770c7d448566621c26a6a2ebe3b1b53d193a3640f5a182a6545c9492e9b",
+      "destination_sha256": "0259b770c7d448566621c26a6a2ebe3b1b53d193a3640f5a182a6545c9492e9b",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/src/money-events.js",
+      "destination": "src/money-events.js",
+      "bytes": 708,
+      "source_sha256": "626fbd63381cb32a877003f6c31f8eb80d8521ae49f728de2b179665fe682d5c",
+      "destination_sha256": "626fbd63381cb32a877003f6c31f8eb80d8521ae49f728de2b179665fe682d5c",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/src/pair-selection.js",
+      "destination": "src/pair-selection.js",
+      "bytes": 1155,
+      "source_sha256": "54841be9ee731b15575ed328e032a94ec99a8c733e127c20eb5b73d02d124fe6",
+      "destination_sha256": "54841be9ee731b15575ed328e032a94ec99a8c733e127c20eb5b73d02d124fe6",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/src/readability.css",
+      "destination": "src/readability.css",
+      "bytes": 11179,
+      "source_sha256": "6123797ca883c08913f0f54cac5f876d67bf9a5bdce53efa6b2a4a28894d345a",
+      "destination_sha256": "6123797ca883c08913f0f54cac5f876d67bf9a5bdce53efa6b2a4a28894d345a",
+      "adapted": false
+    },
+    {
+      "source": "games/modern-art/src/table.css",
+      "destination": "src/table.css",
+      "bytes": 50312,
+      "source_sha256": "01e0c4d82d3d0bf8f529ae2a63d483c02786c2a0e4a250d7001a7cd657c05d51",
+      "destination_sha256": "01e0c4d82d3d0bf8f529ae2a63d483c02786c2a0e4a250d7001a7cd657c05d51",
+      "adapted": false
+    },
+    {
+      "source": ".agents/skills/modern-art-deploy/scripts/package.py",
+      "destination": "scripts/package.py",
+      "bytes": 1896,
+      "source_sha256": "aa67d43cafa7f511587253bdd8a13c1c546fa2ca20e8a0b2cea7976bb860cf37",
+      "destination_sha256": "06fec88817f31c05a6fd8b244b8f7ef07aee617117387b9f00bf44300dace8fe",
+      "adapted": true
+    },
+    {
+      "source": ".agents/skills/modern-art-deploy/scripts/deploy.sh",
+      "destination": "scripts/deploy.sh",
+      "bytes": 3669,
+      "source_sha256": "a3b60c5b753a35670a866249640763d237040619f999bcdf990a11d4e02733dd",
+      "destination_sha256": "a3b60c5b753a35670a866249640763d237040619f999bcdf990a11d4e02733dd",
+      "adapted": false
+    }
+  ],
+  "exclusions": [
+    "dependencies and caches",
+    "runtime data and credentials",
+    "old evidence and recordings",
+    "old release archives and history snapshots"
+  ],
+  "redaction": "Deployment addresses and personal absolute paths removed; destination hashes reflect the sanitized snapshot."
+}

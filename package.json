@@ -1,0 +1,32 @@
+{
+  "name": "modern-art",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "现代艺术 · 小小拍卖馆：支持 3–5 人联机和机器人的独立桌游项目。",
+  "scripts": {
+    "dev": "vite",
+    "serve": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server/index.js",
+    "server": "node --watch server/index.js",
+    "test": "vitest run --reporter=json --outputFile=.a3game/reports/Y-vitest-report.json",
+    "test:network": "vitest run packages/modern-art/tests/network.test.js"
+  },
+  "dependencies": {
+    "@a3game/playable": "file:./packages/a3game-playable",
+    "three": "0.185.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0",
+    "vitest": "5.0.5"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "workspaces": [
+    "packages/modern-art"
+  ]
+}

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.data/
+.a3game/
+evidence/
+*.log
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+release/

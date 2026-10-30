@@ -1,0 +1,18 @@
+#money-effects{position:fixed;inset:0;z-index:48;pointer-events:none;overflow:hidden}
+#money-effects *{box-sizing:border-box}
+.money-flight{position:absolute;pointer-events:none}
+.money-flight.gold{display:grid;place-items:center;width:30px;height:30px;border:3px solid #ffe8a3;border-radius:50%;background:#e7b546;color:#735120;font:bold 22px Georgia,serif;box-shadow:0 3px 0 #9f702b,0 0 18px #ffd66c99}
+.money-flight.painting{width:65px;height:82px;object-fit:cover;border:5px solid #fff3d8;border-radius:5px;box-shadow:0 5px 15px #10272180}
+.money-delta{position:absolute;white-space:nowrap;padding:8px 14px;border:1px solid currentColor;border-radius:30px;background:#173e32f5;font-size:24px;font-weight:800;font-variant-numeric:tabular-nums;box-shadow:0 4px 20px #10272180}
+.money-delta.credit{color:#ffe295}.money-delta.debit{color:#ffb4a3}
+.money-receipt{position:absolute;left:50%;top:19%;transform:translateX(-50%);width:max-content;min-width:320px;max-width:calc(100vw - 32px);padding:22px 28px;border:2px solid #e7be69;border-radius:14px;background:#173e32f7;color:#fff3d8;box-shadow:0 15px 50px #10272188;opacity:0;visibility:hidden;transition:opacity .2s;text-align:center}
+.money-receipt.visible{opacity:1;visibility:visible}
+.money-kicker{display:block;font-size:14px;color:#e7be69;letter-spacing:1px;margin-bottom:10px}
+.money-receipt>b{display:block;font-size:24px;line-height:1.5;overflow-wrap:anywhere}
+.money-receipt>strong{display:block;font:700 48px/1.3 Georgia,serif;color:#ffe295;margin:6px 0}
+.money-receipt small{font:14px/1.5 "Microsoft YaHei",sans-serif}.money-receipt p{font-size:15px;line-height:1.6}
+.wallet-change{display:flex;align-items:baseline;justify-content:center;gap:10px;padding-top:12px;margin-top:14px;border-top:1px solid #e7be6944;font-size:14px;color:#ddd6b9}.wallet-change>b{font-size:26px;color:#fff3d8}.wallet-change>i{font-style:normal;color:#e7be69}
+.bank-payouts{display:grid;gap:5px;margin-top:12px;text-align:left}.bank-payouts>span{display:flex;justify-content:space-between;gap:24px;font-size:14px}.bank-payouts b{color:#ffe295}
+.bank-marker{position:absolute;transform:translate(-50%,-50%);padding:14px 24px;border:2px solid #e7be69;border-radius:9px;background:#fff3d8;color:#493e32;font-size:24px;font-weight:800;box-shadow:0 0 35px #e7be6988}
+@media(max-width:850px){.money-receipt{top:18%;min-width:0;width:calc(100vw - 32px);padding:18px}.money-receipt>b{font-size:21px}.money-receipt>strong{font-size:42px}.money-delta{font-size:20px}}
+@media(prefers-reduced-motion:reduce){.money-receipt{transition:none}}
